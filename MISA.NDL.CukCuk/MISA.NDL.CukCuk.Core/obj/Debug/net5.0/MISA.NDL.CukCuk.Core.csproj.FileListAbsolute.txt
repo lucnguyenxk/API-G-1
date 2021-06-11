@@ -1,0 +1,14 @@
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.deps.json
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.dll
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\bin\Debug\net5.0\ref\MISA.NDL.CukCuk.Core.dll
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.pdb
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.csprojAssemblyReference.cache
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.Properties.Resources.resources
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.csproj.GenerateResource.cache
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.AssemblyInfoInputs.cache
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.AssemblyInfo.cs
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.csproj.CoreCompileInputs.cache
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.dll
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\ref\MISA.NDL.CukCuk.Core.dll
+C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Core\obj\Debug\net5.0\MISA.NDL.CukCuk.Core.pdb
