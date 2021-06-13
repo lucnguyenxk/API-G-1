@@ -48,6 +48,6 @@ namespace MISA.NDL.CukCuk.Core.Enums
         /// <summary>
         /// Khác
         /// </summary>
-        Other = 3
+        Other = 0
     }
 }

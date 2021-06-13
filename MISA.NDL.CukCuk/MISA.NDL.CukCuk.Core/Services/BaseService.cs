@@ -69,7 +69,7 @@ namespace MISA.NDL.CukCuk.Core.Services
         }
 
         /// <summary>
-        /// Validate thông tin đối tượng
+        /// Validate thông tin đối tượng chung cho base
         /// </summary>
         /// created by ndluc(20/05/2021)
         protected void Validate(MISAEntities entity)
@@ -100,7 +100,7 @@ namespace MISA.NDL.CukCuk.Core.Services
                     };
                     if (checkRes)
                     {
-                        var ErrMsg = (nonDuplicate[0] as NonDuplicate).ErrMsg + propertyValue;
+                        var ErrMsg = String.Format((nonDuplicate[0] as NonDuplicate).ErrMsg,propertyValue);
                         throw new ValidateException(ErrMsg, entity.GetType().GetProperty(property.Name).Name);
                         //isValid = false;
                     }
@@ -117,11 +117,28 @@ namespace MISA.NDL.CukCuk.Core.Services
             }
             CustomValidate(entity);
         }
+
+        public IEnumerable<MISAEntities> GetPaging(int PageNumber, int PageSize, string SearchString)
+        {
+            if(SearchString == null) {
+                SearchString = "";
+            }
+            var entities = iBaseRepository.GetPaging(PageNumber, PageSize, SearchString);
+            return entities;
+        }
+
+
+        /// <summary>
+        /// validate thông tin của riêng các đối tượng
+        /// </summary>
+        /// <param name="entity"> đối tượng cần validate</param>
+        /// created by ndluc(20/05/2021)
         protected virtual void CustomValidate(MISAEntities entity)
         {
             
         }
 
+       
         #endregion
 
     }

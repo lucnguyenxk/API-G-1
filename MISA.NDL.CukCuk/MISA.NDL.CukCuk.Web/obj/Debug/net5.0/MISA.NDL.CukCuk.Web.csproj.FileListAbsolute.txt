@@ -39,3 +39,44 @@ C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug
 C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\ref\MISA.NDL.CukCuk.Web.dll
 C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.pdb
 C:\Users\ndluc\Desktop\WEB2021_05A\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.genruntimeconfig.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\appsettings.json
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Web.exe
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Web.deps.json
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Web.runtimeconfig.json
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Web.runtimeconfig.dev.json
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Web.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\ref\MISA.NDL.CukCuk.Web.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Web.pdb
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Dapper.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\EPPlus.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.pdb
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\bin\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.pdb
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.csprojAssemblyReference.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.AssemblyInfoInputs.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.AssemblyInfo.cs
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.csproj.CoreCompileInputs.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\staticwebassets\MISA.NDL.CukCuk.Web.StaticWebAssets.Manifest.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\staticwebassets\MISA.NDL.CukCuk.Web.StaticWebAssets.xml
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\scopedcss\bundle\MISA.NDL.CukCuk.Web.styles.css
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.RazorTargetAssemblyInfo.cache
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.csproj.CopyComplete
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\ref\MISA.NDL.CukCuk.Web.dll
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.pdb
+C:\Users\manhd\OneDrive\Máy tính\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Web\obj\Debug\net5.0\MISA.NDL.CukCuk.Web.genruntimeconfig.cache

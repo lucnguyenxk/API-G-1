@@ -160,6 +160,24 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mã nhân viên.
+        /// </summary>
+        public static string EmployeeCode {
+            get {
+                return ResourceManager.GetString("EmployeeCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tên nhân viên.
+        /// </summary>
+        public static string EmployeeName {
+            get {
+                return ResourceManager.GetString("EmployeeName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File này trống!.
         /// </summary>
         public static string EmtyFile {
@@ -174,6 +192,24 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         public static string Error_Exception {
             get {
                 return ResourceManager.GetString("Error_Exception", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nữ.
+        /// </summary>
+        public static string FeMale {
+            get {
+                return ResourceManager.GetString("FeMale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nam.
+        /// </summary>
+        public static string Male {
+            get {
+                return ResourceManager.GetString("Male", resourceCulture);
             }
         }
         
@@ -196,20 +232,20 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &quot;Mã {value} đã tồn tại&quot;.
-        /// </summary>
-        public static string Noti {
-            get {
-                return ResourceManager.GetString("Noti", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Dữ liệu ngày tháng nhập vào không hợp lệ!.
         /// </summary>
         public static string NotiDatetimeNotValid {
             get {
                 return ResourceManager.GetString("NotiDatetimeNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mã nhân viên &lt;{0}&gt; đã tồn tại trong hệ thống, vui lòng kiểm tra lại..
+        /// </summary>
+        public static string NotiDuplicateEmployeeCode {
+            get {
+                return ResourceManager.GetString("NotiDuplicateEmployeeCode", resourceCulture);
             }
         }
         
@@ -232,11 +268,29 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Số điện thoại.
+        ///   Looks up a localized string similar to Khác.
+        /// </summary>
+        public static string Other {
+            get {
+                return ResourceManager.GetString("Other", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Số điện thoại..
         /// </summary>
         public static string PhoneNumber {
             get {
                 return ResourceManager.GetString("PhoneNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Số điện thoại &lt;{0]&gt; đã tồn tại trong hệ thống, vui lòng kiểm tra lại..
+        /// </summary>
+        public static string PhoneNumberExist {
+            get {
+                return ResourceManager.GetString("PhoneNumberExist", resourceCulture);
             }
         }
         

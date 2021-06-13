@@ -150,11 +150,23 @@
   <data name="Email" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="EmployeeCode" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Tên nhân viên</value>
+  </data>
   <data name="EmtyFile" xml:space="preserve">
     <value>File này trống!</value>
   </data>
   <data name="Error_Exception" xml:space="preserve">
     <value>Có lỗi xảy ra, vui lòng liên hệ MISA để được trợ giúp.</value>
+  </data>
+  <data name="FeMale" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Nam</value>
   </data>
   <data name="MemberCode" xml:space="preserve">
     <value>Mã thẻ thành viên</value>
@@ -162,11 +174,11 @@
   <data name="Note" xml:space="preserve">
     <value>Ghi chú</value>
   </data>
-  <data name="Noti" xml:space="preserve">
-    <value>"Mã {value} đã tồn tại"</value>
-  </data>
   <data name="NotiDatetimeNotValid" xml:space="preserve">
     <value>Dữ liệu ngày tháng nhập vào không hợp lệ!</value>
+  </data>
+  <data name="NotiDuplicateEmployeeCode" xml:space="preserve">
+    <value>Mã nhân viên &lt;{0}&gt; đã tồn tại trong hệ thống, vui lòng kiểm tra lại.</value>
   </data>
   <data name="NotiInvalid" xml:space="preserve">
     <value>Hợp lệ.</value>
@@ -174,8 +186,14 @@
   <data name="NotSupportFile" xml:space="preserve">
     <value>Hệ thống không hộ trợ loại file này</value>
   </data>
+  <data name="Other" xml:space="preserve">
+    <value>Khác</value>
+  </data>
   <data name="PhoneNumber" xml:space="preserve">
-    <value>Số điện thoại</value>
+    <value>Số điện thoại.</value>
+  </data>
+  <data name="PhoneNumberExist" xml:space="preserve">
+    <value>Số điện thoại &lt;{0]&gt; đã tồn tại trong hệ thống, vui lòng kiểm tra lại.</value>
   </data>
   <data name="PhoneNumberNonEmpty" xml:space="preserve">
     <value>Số điện thoại không được bỏ trông.</value>

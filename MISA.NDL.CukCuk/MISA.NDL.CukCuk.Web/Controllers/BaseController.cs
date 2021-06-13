@@ -161,11 +161,22 @@ namespace MISA.NDL.CukCuk.Web.Controllers
             var res = iBaseService.GetNewCode();
             return Ok(res);
         }
-
+        /// <summary>
+        /// Lấy dữ liệu theo phân trang
+        /// </summary>
+        /// <param name="PageNumber">vị trí trang</param>
+        /// <param name="PageSize">kích cỡ trang</param>
+        /// <param name="SearchString">khóa tìm kiếm</param>
+        /// <returns>Dữ liệu trả về có phân trang
+        /// 500 - lỗi serve
+        /// 400 - lỗi dữ liệu đầu vào
+        /// 200 -  lấy dữ liệu thành công
+        /// </returns>
+        /// created by ndluc(12/06/2021)
         [HttpGet("GetPaging")]
         public IActionResult GetPaging(int PageNumber, int PageSize, string SearchString)
         {
-            var res = iBaseRepository.GetPaging(PageNumber, PageSize, SearchString);
+            var res = iBaseService.GetPaging(PageNumber, PageSize, SearchString);
             if(res.Count() == 0)
             {
                 return NoContent();

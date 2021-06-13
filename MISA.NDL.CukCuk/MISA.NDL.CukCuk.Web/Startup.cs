@@ -32,6 +32,16 @@ namespace MISA.NDL.CukCuk.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("allowOrigins",
+                                builder =>
+                                {
+                                    builder.AllowAnyOrigin()
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod();
+                                });
+            });
 
             services.AddControllers(options =>
             options.Filters.Add(new HttpResponseExceptionFilter()));
@@ -63,6 +73,7 @@ namespace MISA.NDL.CukCuk.Web
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("allowOrigins");
 
             app.UseAuthorization();
 

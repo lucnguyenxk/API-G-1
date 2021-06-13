@@ -7,54 +7,51 @@ using MISA.NDL.CukCuk.Core.Interfaces.IServices;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace MISA.NDL.CukCuk.Web.Controllers
 {
-    
+    /// <summary>
+    /// Api của nhân viên 
+    /// </summary>
+    /// created bt ndluc(12/06/2021)
     public class EmployeeController : BaseController<Employee>
     {
-        [Obsolete]
-        private readonly IHostingEnvironment _hostingEnvironment;
+        #region Property and Constructor
+        public IEmployeeService iEmployeeService;
 
-        [Obsolete]
-        public EmployeeController(IEmployeeService iEmployeeService , IEmployeeRepository iEmployeeRepository, IHostingEnvironment hostingEnvironment) : base(iEmployeeService, iEmployeeRepository)
+        public EmployeeController(IEmployeeService _iEmployeeService, IEmployeeRepository _iEmployeeRepository) : base(_iEmployeeService, _iEmployeeRepository)
         {
-            this._hostingEnvironment = hostingEnvironment;
+            iEmployeeService = _iEmployeeService;
         }
+        #endregion
+
+        #region Method
+        /// <summary>
+        /// api xuất khẩu danh sách nhân viên ra file excek
+        /// </summary>
+        /// <param name="cancellationToken"></param>
+        /// <returns> file excel danh sách nhân viên
+        /// 500 - lỗi serve
+        /// 400 - lỗi dữ liệu đầu vào
+        /// 200 -  lấy dữ liệu thành công
+        /// </returns>
+        /// created by ndluc(12/06/2021)
         [HttpGet("Export")]
-        [Obsolete]
-        public IActionResult Export(CancellationToken cancellationToken) 
+        public IActionResult Export(CancellationToken cancellationToken)
         {
-            string folder = _hostingEnvironment.WebRootPath;
+            // thông tin danh sách lấy từ service
+            var stream = iEmployeeService.Export(cancellationToken);
+            // tên file
             string excelName = $"UserList-{DateTime.Now.ToString("yyyyMMddHHmmssfff")}.xlsx";
-            string downloadUrl = string.Format("{0}://{1}/{2}", Request.Scheme, Request.Host, excelName);
-            FileInfo file = new FileInfo(Path.Combine(folder, excelName));
-            if (file.Exists)
-            {
-                file.Delete();
-                file = new FileInfo(Path.Combine(folder, excelName));
-            }
-
-            // query data from database  
-            //await Task.Yield();
-
-            var list = new List<Employee>()
-            {
-                new Employee { EmployeeCode = "NV-001", FullName = "NDL" },
-                new Employee { EmployeeCode = "NV-002", FullName = "PAP"  },
-            };
-
-            using (var package = new ExcelPackage(file))
-            {
-                var workSheet = package.Workbook.Worksheets.Add("Sheet1");
-                workSheet.Cells.LoadFromCollection(list, true);
-                package.Save();
-            }
-            return Ok(downloadUrl);
+            // file trả về
+            return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", excelName);
         }
+        #endregion
     }
 }

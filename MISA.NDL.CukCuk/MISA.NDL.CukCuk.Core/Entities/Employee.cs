@@ -1,7 +1,9 @@
 ﻿using MISA.NDL.CukCuk.Core.Common.Attribute;
 using MISA.NDL.CukCuk.Core.Enums;
+using MISA.NDL.CukCuk.Core.Properties;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,14 +28,16 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// Mã nhân viên
         /// </summary>
         /// created by ndluc(25/02/2021)
-        [NonDuplicate("Mã nhân viên đã tồn tại trong hệ thống, vui lòng kiểm tra lại!")]
+        [NonDuplicate("NotiDuplicateEmployeeCode")]
         [NonEmpty("Mã nhân viên không được bỏ trống!")]
+        [DisplayName("Mã nhân viên")]
         public string EmployeeCode { get; set; }
 
         /// <summary>
         /// Tên nhân viên
         /// </summary>
         /// created by ndluc(25/02/2021)
+        [DisplayName("Tên nhân viên")]
         public string FullName { get; set; }
 
         /// <summary>
@@ -45,14 +49,16 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// Số điện thoại
         /// </summary>
         /// created by ndluc(25/02/2021)
-        [NonDuplicate("Số điện thoại đã tồn tại trong hệ thống, vui lòng kiểm tra lại!")]
+        [NonDuplicate("PhoneNumberExist")]
         [NonEmpty("Số điện thoại không được để trống!")]
+        [DisplayName("Số điện thoại")]
         public string PhoneNumber { get; set; }
 
         /// <summary>
         /// Ngày sinh
         /// </summary>
         /// created by ndluc(25/02/2021)
+        [DisplayName("Ngày sinh")]
         public DateTime? DateOfBirth { get; set; }
 
         /// <summary>
@@ -62,27 +68,53 @@ namespace MISA.NDL.CukCuk.Core.Entities
         public Gender?  Gender { get; set; }
 
         /// <summary>
+        /// Tên giới tính
+        /// </summary>
+        /// created by ndluc(25/02/2021)
+        [DisplayName("Giới tính")]
+        public string GenderName
+        {
+            get
+            {
+                switch (Gender)
+                {
+                    case Enums.Gender.Male:
+                        return Resources.Male;
+                    case Enums.Gender.FeMale:
+                        return Resources.FeMale;
+                    default:
+                        return Resources.Other;
+                }
+               
+            }
+        }
+
+        /// <summary>
         /// Email
         /// </summary>
         /// created by ndluc(25/02/2021)
+        [DisplayName("Email")]
         public string Email { get; set; }
 
         /// <summary>
         /// Địa chỉ
         /// </summary>
         /// created by ndluc(25/02/2021)
+        [DisplayName("Địa chỉ")]
         public string Address { get; set; }
 
         /// <summary>
         /// Chức vụ
         /// </summary>
         /// created by ndluc(25/02/2021)
+        [DisplayName("Vị trí")]
         public string Position { get; set; }
 
         /// <summary>
         /// Số CMND
         /// </summary>
         /// created by ndluc(25/02/2021)
+        [DisplayName("Số CMND")]
         public string IdentityCardNumber { get; set; }
 
         /// <summary>
