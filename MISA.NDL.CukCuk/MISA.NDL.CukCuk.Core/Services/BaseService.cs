@@ -74,9 +74,6 @@ namespace MISA.NDL.CukCuk.Core.Services
         /// created by ndluc(20/05/2021)
         protected void Validate(MISAEntities entity)
         {
-            //var isValid = true;
-            //var nameOfEntity = typeof(NdlEntities).Name;
-
             var properties = typeof(MISAEntities).GetProperties();
             var entityState = properties[properties.Length - 1].GetValue(entity).ToString();
             var entityId = properties[0].GetValue(entity).ToString();
@@ -102,7 +99,7 @@ namespace MISA.NDL.CukCuk.Core.Services
                     {
                         var ErrMsg = String.Format((nonDuplicate[0] as NonDuplicate).ErrMsg,propertyValue);
                         throw new ValidateException(ErrMsg, entity.GetType().GetProperty(property.Name).Name);
-                        //isValid = false;
+                      
                     }
                 }
                 //check dữ liệu gửi lên bị bỏ trống.

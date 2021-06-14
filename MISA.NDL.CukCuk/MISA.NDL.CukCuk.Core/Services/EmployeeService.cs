@@ -2,9 +2,11 @@
 using MISA.NDL.CukCuk.Core.Interfaces.IRepositories;
 using MISA.NDL.CukCuk.Core.Interfaces.IServices;
 using OfficeOpenXml;
+using OfficeOpenXml.Style;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -53,8 +55,25 @@ namespace MISA.NDL.CukCuk.Core.Services
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.Commercial;
             using (var package = new ExcelPackage(stream))
             {
+                var columNumbers = memberInfors.Count(); 
                 var workSheet = package.Workbook.Worksheets.Add("Sheet1");
-                workSheet.Cells.LoadFromCollection(listEmployees, true, OfficeOpenXml.Table.TableStyles.Light1, BindingFlags.Public, memberInfors.ToArray());
+                workSheet.Cells[1, 1].Value = "DANH SÁCH NHÂN VIÊN";
+                workSheet.Cells[1, 1].Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Center;
+                workSheet.Cells[1, 1].Style.VerticalAlignment = OfficeOpenXml.Style.ExcelVerticalAlignment.Center;
+                workSheet.Cells[1, 1].Style.Font.Size = 16;
+                workSheet.Cells[1, 1].Style.Font.Bold = true;
+                workSheet.Cells[1, 1, 1, columNumbers].Merge = true;
+                workSheet.Cells[2, 1, 2, columNumbers].Merge = true;
+                workSheet.Cells["A3"].LoadFromCollection(listEmployees, true, OfficeOpenXml.Table.TableStyles.None, BindingFlags.Public, memberInfors.ToArray());
+              
+                workSheet.Cells[workSheet.Dimension.Address].AutoFitColumns();
+                workSheet.Cells[workSheet.Dimension.Address].Style.Border.Top.Style = ExcelBorderStyle.Thin;
+                workSheet.Cells[workSheet.Dimension.Address].Style.Border.Right.Style = ExcelBorderStyle.Thin;
+                workSheet.Cells[workSheet.Dimension.Address].Style.Border.Bottom.Style = ExcelBorderStyle.Thin;
+                workSheet.Cells[workSheet.Dimension.Address].Style.Border.Left.Style = ExcelBorderStyle.Thin;
+                workSheet.Cells[3, 1, 3, columNumbers].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                workSheet.Cells[3, 1, 3, columNumbers].Style.Fill.BackgroundColor.SetColor(Color.LightGray);
+                workSheet.Cells[3, 1, 3, columNumbers].Style.Font.Bold = true;
                 package.Save();
             }
             stream.Position = 0;

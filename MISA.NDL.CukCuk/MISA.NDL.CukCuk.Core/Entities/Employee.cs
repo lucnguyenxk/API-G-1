@@ -49,8 +49,6 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// Số điện thoại
         /// </summary>
         /// created by ndluc(25/02/2021)
-        [NonDuplicate("PhoneNumberExist")]
-        [NonEmpty("Số điện thoại không được để trống!")]
         [DisplayName("Số điện thoại")]
         public string PhoneNumber { get; set; }
 

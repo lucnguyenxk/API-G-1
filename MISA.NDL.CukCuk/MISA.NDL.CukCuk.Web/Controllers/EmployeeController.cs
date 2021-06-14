@@ -48,7 +48,7 @@ namespace MISA.NDL.CukCuk.Web.Controllers
             // thông tin danh sách lấy từ service
             var stream = iEmployeeService.Export(cancellationToken);
             // tên file
-            string excelName = $"UserList-{DateTime.Now.ToString("yyyyMMddHHmmssfff")}.xlsx";
+            string excelName = "Danh sach nhan vien.xlsx";
             // file trả về
             return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", excelName);
         }
