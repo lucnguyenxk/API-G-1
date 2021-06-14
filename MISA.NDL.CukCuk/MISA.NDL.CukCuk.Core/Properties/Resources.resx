@@ -171,6 +171,12 @@
   <data name="MemberCode" xml:space="preserve">
     <value>Mã thẻ thành viên</value>
   </data>
+  <data name="NonEmptyEmployeeCode" xml:space="preserve">
+    <value>Mã nhân viên không được để trống.</value>
+  </data>
+  <data name="NonEmptyFullName" xml:space="preserve">
+    <value>Tên không được trống.</value>
+  </data>
   <data name="Note" xml:space="preserve">
     <value>Ghi chú</value>
   </data>

@@ -25,35 +25,7 @@ namespace MISA.NDL.CukCuk.Web.Controllers
             iCustomerService = _iCustomerService;
         }
 
-        /// <summary>
-        /// Import fỉle Excel vào trong CSDL
-        /// </summary>
-        /// <param name="formFile"> tên file</param>
-        /// <param name="cancellationToken"></param>
-        /// <returns>
-        /// danh sách các bản ghi và trạng thái
-        /// </returns>
-        /// created by ndluc(27/05/2021)
-        [HttpPost("ImportFileExcel")]
-        public IActionResult Import(IFormFile formFile, CancellationToken cancellationToken)
-        {
-            if (!Path.GetExtension(formFile.FileName).Equals(".xlsx", StringComparison.OrdinalIgnoreCase))
-            {
-                throw new  ValidateException(Core.Properties.Resources.NotSupportFile);
-            }
-            using(var stream  = new MemoryStream())
-            {
-                formFile.CopyToAsync(stream, cancellationToken);
-                using(var package = new ExcelPackage(stream))
-                {
-                    ExcelPackage.LicenseContext = LicenseContext.Commercial;
-                    ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
-                    var res = iCustomerService.Import(worksheet);
-                    return Ok(res);
-
-                }    
-            }
-        }
+       
 
     }
 }

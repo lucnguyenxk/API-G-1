@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace MISA.NDL.CukCuk.Core.Interfaces.IRepositories
 {
-    public interface ICustomerRepository : IBaseRepository<Customer>
+    public interface IDepartmentRepository : IBaseRepository<Department>
     {
-        
 
     }
 }

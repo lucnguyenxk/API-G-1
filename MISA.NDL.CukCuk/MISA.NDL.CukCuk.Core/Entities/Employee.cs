@@ -29,7 +29,7 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// </summary>
         /// created by ndluc(25/02/2021)
         [NonDuplicate("NotiDuplicateEmployeeCode")]
-        [NonEmpty("Mã nhân viên không được bỏ trống!")]
+        [NonEmpty("NonEmptyEmployeeCode")]
         [DisplayName("Mã nhân viên")]
         public string EmployeeCode { get; set; }
 
@@ -38,12 +38,19 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// </summary>
         /// created by ndluc(25/02/2021)
         [DisplayName("Tên nhân viên")]
+        [NonEmpty("NonEmptyFullName")]
         public string FullName { get; set; }
 
         /// <summary>
         /// Id Phòng ban
         /// </summary>
         public Guid DepartmentId { get; set; }
+
+        /// <summary>
+        /// Tên phòng ban
+        /// </summary>
+        /// created by ndluc(14/06/2021)
+        public string DepartmentName { get; set; }
 
         /// <summary>
         /// Số điện thoại

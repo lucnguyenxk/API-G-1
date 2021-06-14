@@ -11,6 +11,6 @@ namespace MISA.NDL.CukCuk.Core.Interfaces.IServices
 {
     public interface ICustomerService : IBaseService<Customer>
     {
-        public ImportObject<Customer> Import(ExcelWorksheet worksheet);
+       
     }
 }

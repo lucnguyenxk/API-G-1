@@ -5,11 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MISA.NDL.CukCuk.Core.Interfaces.IRepositories
+namespace MISA.NDL.CukCuk.Core.Interfaces.IServices
 {
-    public interface ICustomerRepository : IBaseRepository<Customer>
+    public interface IDepartmentService : IBaseService<Department> 
     {
-        
-
     }
 }

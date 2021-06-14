@@ -223,6 +223,24 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mã nhân viên không được để trống..
+        /// </summary>
+        public static string NonEmptyEmployeeCode {
+            get {
+                return ResourceManager.GetString("NonEmptyEmployeeCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tên không được trống..
+        /// </summary>
+        public static string NonEmptyFullName {
+            get {
+                return ResourceManager.GetString("NonEmptyFullName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ghi chú.
         /// </summary>
         public static string Note {

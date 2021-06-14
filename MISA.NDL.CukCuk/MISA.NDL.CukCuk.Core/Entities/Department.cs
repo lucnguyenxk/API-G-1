@@ -10,7 +10,7 @@ namespace MISA.NDL.CukCuk.Core.Entities
     /// Đối tượng phòng ban
     /// </summary>
     /// created by ndluc(11/06/2021)
-    public class Departmernt 
+    public class Department 
     {
         #region Property
         /// <summary>

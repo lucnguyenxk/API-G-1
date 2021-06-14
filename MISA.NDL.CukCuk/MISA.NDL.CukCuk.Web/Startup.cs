@@ -57,6 +57,8 @@ namespace MISA.NDL.CukCuk.Web
             services.AddScoped<ICustomerGroupRepository, CustomerGroupRepository>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 
         }
 
