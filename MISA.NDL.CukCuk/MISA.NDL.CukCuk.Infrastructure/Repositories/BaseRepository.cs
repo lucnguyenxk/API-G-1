@@ -52,7 +52,7 @@ namespace MISA.NDL.CukCuk.Infrastructure.Repositories
         }
 
         public int Insert(MISAEntities entity)
-        {
+        {   
 
             using (_dbConnection = new MySqlConnection(connectionString))
             {
