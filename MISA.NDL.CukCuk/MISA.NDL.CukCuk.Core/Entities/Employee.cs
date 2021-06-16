@@ -87,8 +87,11 @@ namespace MISA.NDL.CukCuk.Core.Entities
                         return Resources.Male;
                     case Enums.Gender.FeMale:
                         return Resources.FeMale;
-                    default:
+                    case Enums.Gender.Other:
                         return Resources.Other;
+                    default:
+                        return "";
+                      
                 }
                
             }

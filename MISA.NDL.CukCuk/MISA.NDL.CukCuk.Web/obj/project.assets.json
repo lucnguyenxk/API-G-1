@@ -6534,19 +6534,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ndluc\\.nuget\\packages\\": {}
+    "C:\\Users\\manhd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
+      "projectUniqueName": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
       "projectName": "MISA.NDL.CukCuk.Web",
-      "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
-      "packagesPath": "C:\\Users\\ndluc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\obj\\",
+      "projectPath": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
+      "packagesPath": "C:\\Users\\manhd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ndluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6560,11 +6560,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {
-              "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj"
+            "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {
+              "projectPath": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj"
             },
-            "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj"
+            "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj"
             }
           }
         }
@@ -6614,7 +6614,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
