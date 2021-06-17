@@ -6539,11 +6539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
+      "projectUniqueName": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
       "projectName": "MISA.NDL.CukCuk.Web",
-      "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
+      "projectPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\MISA.NDL.CukCuk.Web.csproj",
       "packagesPath": "C:\\Users\\ndluc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\obj\\",
+      "outputPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ndluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6560,11 +6560,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {
-              "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj"
+            "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {
+              "projectPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj"
             },
-            "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj"
+            "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Infrastructure\\MISA.NDL.CukCuk.Infrastructure.csproj"
             }
           }
         }

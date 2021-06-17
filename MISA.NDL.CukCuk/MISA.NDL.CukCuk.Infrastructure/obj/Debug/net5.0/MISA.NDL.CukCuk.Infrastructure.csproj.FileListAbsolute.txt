@@ -43,3 +43,18 @@ C:\Users\ndluc\Desktop\New folder\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infras
 C:\Users\ndluc\Desktop\New folder\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.dll
 C:\Users\ndluc\Desktop\New folder\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\ref\MISA.NDL.CukCuk.Infrastructure.dll
 C:\Users\ndluc\Desktop\New folder\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.pdb
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\bin\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.deps.json
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\bin\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.dll
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\bin\Debug\net5.0\ref\MISA.NDL.CukCuk.Infrastructure.dll
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\bin\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.pdb
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.dll
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\bin\Debug\net5.0\MISA.NDL.CukCuk.Core.pdb
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.csprojAssemblyReference.cache
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.AssemblyInfo.cs
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.csproj.CopyComplete
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.dll
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\ref\MISA.NDL.CukCuk.Infrastructure.dll
+C:\Users\ndluc\Desktop\API-G-1\MISA.NDL.CukCuk\MISA.NDL.CukCuk.Infrastructure\obj\Debug\net5.0\MISA.NDL.CukCuk.Infrastructure.pdb

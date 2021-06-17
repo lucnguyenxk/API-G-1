@@ -6247,11 +6247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
       "projectName": "MISA.NDL.CukCuk.Core",
-      "projectPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
+      "projectPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
       "packagesPath": "C:\\Users\\ndluc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ndluc\\Desktop\\New folder\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\obj\\",
+      "outputPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ndluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
