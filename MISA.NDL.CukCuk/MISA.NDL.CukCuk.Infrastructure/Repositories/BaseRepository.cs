@@ -123,7 +123,6 @@ namespace MISA.NDL.CukCuk.Infrastructure.Repositories
         /// <param name="propertyName">thuộc tính cần kiểm tra</param>
         /// <returns>Có bị trùng hay không? Đúng|Sai</returns>
         /// created by ndluc(20/05/2021)
-
         public bool CheckExists(string ValueCheck, string propertyName, string entityId = null)
         {
             using (_dbConnection = new MySqlConnection(connectionString))

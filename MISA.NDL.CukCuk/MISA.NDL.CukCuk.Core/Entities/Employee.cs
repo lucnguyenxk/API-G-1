@@ -25,6 +25,14 @@ namespace MISA.NDL.CukCuk.Core.Entities
         public Guid EmployeeId { get; set; }
 
         /// <summary>
+        /// số thứ tự khi lấy dữ liêu ra
+        /// </summary>
+        /// created by ndluc(17/06/2021)
+        [DisplayName("STT")]
+        public int Sort { get; set; }
+
+
+        /// <summary>
         /// Mã nhân viên
         /// </summary>
         /// created by ndluc(25/02/2021)
@@ -87,11 +95,8 @@ namespace MISA.NDL.CukCuk.Core.Entities
                         return Resources.Male;
                     case Enums.Gender.FeMale:
                         return Resources.FeMale;
-                    case Enums.Gender.Other:
-                        return Resources.Other;
                     default:
-                        return "";
-                      
+                        return Resources.Other;
                 }
                
             }
