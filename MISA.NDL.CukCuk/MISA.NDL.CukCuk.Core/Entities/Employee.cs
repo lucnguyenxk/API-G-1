@@ -108,7 +108,9 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// Email
         /// </summary>
         /// created by ndluc(25/02/2021)
+        /// 
         [DisplayName("Email")]
+        [Format("EmailErr","EmailFormat")]
         public string Email { get; set; }
 
         /// <summary>

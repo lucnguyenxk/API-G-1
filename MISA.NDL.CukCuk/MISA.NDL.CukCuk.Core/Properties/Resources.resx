@@ -150,6 +150,12 @@
   <data name="Email" xml:space="preserve">
     <value>Email</value>
   </data>
+  <data name="EmailErr" xml:space="preserve">
+    <value>Email không đúng định dạng, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="EmailFormat" xml:space="preserve">
+    <value>[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?</value>
+  </data>
   <data name="EmployeeCode" xml:space="preserve">
     <value>Mã nhân viên</value>
   </data>
@@ -170,6 +176,9 @@
   </data>
   <data name="MemberCode" xml:space="preserve">
     <value>Mã thẻ thành viên</value>
+  </data>
+  <data name="NameOfFileExcel" xml:space="preserve">
+    <value>DANH SÁCH NHÂN VIÊN</value>
   </data>
   <data name="NonEmptyEmployeeCode" xml:space="preserve">
     <value>Mã nhân viên không được để trống.</value>

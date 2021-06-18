@@ -26,7 +26,7 @@ namespace MISA.NDL.CukCuk.Core.Common.Attribute
     public class NonEmpty : System.Attribute
     {
         public string ErrMsg;
-        public NonEmpty( string resourcesKey)
+        public NonEmpty(string resourcesKey)
         {
             ErrMsg = Properties.Resources.ResourceManager.GetString(resourcesKey);
 
@@ -40,7 +40,7 @@ namespace MISA.NDL.CukCuk.Core.Common.Attribute
     {
         public string ErrMsg;
         public int LenghtPro;
-        public LenghtRequired(string errMsg , int lenghtPro)
+        public LenghtRequired(string errMsg, int lenghtPro)
         {
             ErrMsg = errMsg;
             LenghtPro = lenghtPro;
@@ -60,5 +60,14 @@ namespace MISA.NDL.CukCuk.Core.Common.Attribute
 
         }
     }
-    
+    public class Format : System.Attribute
+    {
+        public string ErrMsg;
+        public string FormatValue;
+        public Format(string resourcesKeyErrMsd, string resoursceskeyFormat)
+        {
+            ErrMsg = Properties.Resources.ResourceManager.GetString(resourcesKeyErrMsd);
+            FormatValue = Properties.Resources.ResourceManager.GetString(resoursceskeyFormat); 
+        }
+    }
 }

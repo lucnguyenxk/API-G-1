@@ -43,6 +43,7 @@ namespace MISA.NDL.CukCuk.Core.Services
             var listEmployees = iEmployeeRepository.GetAll().ToList();
             var properties = typeof(Employee).GetProperties();
             var memberInfors = new List<MemberInfo>();
+            //lựa chọn các thuộc tính cần đưa dữ liệu ra file excel
             foreach (var property in properties)
             {
                 var displayNameAtrribute = property.GetCustomAttribute(typeof(DisplayNameAttribute), true);
@@ -55,17 +56,30 @@ namespace MISA.NDL.CukCuk.Core.Services
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.Commercial;
             using (var package = new ExcelPackage(stream))
             {
+                // tạo tiêu đề và format tiêu đề cho file
                 var columNumbers = memberInfors.Count(); 
                 var workSheet = package.Workbook.Worksheets.Add("Sheet1");
-                workSheet.Cells[1, 1].Value = "DANH SÁCH NHÂN VIÊN";
+                workSheet.Cells[1, 1].Value = Properties.Resources.NameOfFileExcel;
                 workSheet.Cells[1, 1].Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Center;
                 workSheet.Cells[1, 1].Style.VerticalAlignment = OfficeOpenXml.Style.ExcelVerticalAlignment.Center;
                 workSheet.Cells[1, 1].Style.Font.Size = 16;
                 workSheet.Cells[1, 1].Style.Font.Bold = true;
+                workSheet.Cells[1, 1].Style.Border.Bottom.Style = ExcelBorderStyle.None;
                 workSheet.Cells[1, 1, 1, columNumbers].Merge = true;
                 workSheet.Cells[2, 1, 2, columNumbers].Merge = true;
+
+                // đánh số thứ tự cho các bản ghi
+                var sort = 1;
+                foreach(var employee in listEmployees)
+                {
+                    employee.Sort = sort;
+                    sort++;
+                }
+
+                // load dữ liệu ra file
                 workSheet.Cells["A3"].LoadFromCollection(listEmployees, true, OfficeOpenXml.Table.TableStyles.None, BindingFlags.Public, memberInfors.ToArray());
-              
+                
+                // format các cột trong bảng excel
                 workSheet.Cells[workSheet.Dimension.Address].AutoFitColumns();
                 workSheet.Cells[workSheet.Dimension.Address].Style.Border.Top.Style = ExcelBorderStyle.Thin;
                 workSheet.Cells[workSheet.Dimension.Address].Style.Border.Right.Style = ExcelBorderStyle.Thin;

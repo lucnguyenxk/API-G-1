@@ -160,6 +160,24 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Email không đúng định dạng, vui lòng kiểm tra lại..
+        /// </summary>
+        public static string EmailErr {
+            get {
+                return ResourceManager.GetString("EmailErr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [a-z0-9!#$%&amp;&apos;*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;&apos;*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?.
+        /// </summary>
+        public static string EmailFormat {
+            get {
+                return ResourceManager.GetString("EmailFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mã nhân viên.
         /// </summary>
         public static string EmployeeCode {
@@ -219,6 +237,15 @@ namespace MISA.NDL.CukCuk.Core.Properties {
         public static string MemberCode {
             get {
                 return ResourceManager.GetString("MemberCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DANH SÁCH NHÂN VIÊN.
+        /// </summary>
+        public static string NameOfFileExcel {
+            get {
+                return ResourceManager.GetString("NameOfFileExcel", resourceCulture);
             }
         }
         

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace MISA.NDL.CukCuk.Core.Services
@@ -81,6 +82,7 @@ namespace MISA.NDL.CukCuk.Core.Services
             {
                 var nonDuplicate = property.GetCustomAttributes(typeof(NonDuplicate), true);
                 var nonEmpty = property.GetCustomAttributes(typeof(NonEmpty), true);
+                var isValidFormat = property.GetCustomAttributes(typeof(Format), true);
                // Check trùng dữ liệu đối tượng
                 if (nonDuplicate.Length > 0)
                 {
@@ -104,11 +106,21 @@ namespace MISA.NDL.CukCuk.Core.Services
                 }
                 //check dữ liệu gửi lên bị bỏ trống.
                 if (nonEmpty.Length > 0)
-                {
+                {   
                     if (property.GetValue(entity).ToString() == "")
                     {
                         var errmsg = (nonEmpty[0] as NonEmpty).ErrMsg;
                         throw new ValidateException(errmsg, entity.GetType().GetProperty(property.Name).Name);
+                    }
+                }
+                if(isValidFormat.Length > 0 )
+                {
+                    var propertyValue = property.GetValue(entity);
+                    var format = (isValidFormat[0] as Format).FormatValue;
+                    var errmsg = (isValidFormat[0] as Format).ErrMsg;
+                    if (propertyValue.ToString() != "" && propertyValue != null && !Regex.IsMatch(propertyValue.ToString(), format) )
+                    {
+                        throw new ValidateException(errmsg, property.Name);
                     }
                 }
             }
