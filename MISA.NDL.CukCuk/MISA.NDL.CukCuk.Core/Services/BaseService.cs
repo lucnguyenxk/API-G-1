@@ -53,20 +53,20 @@ namespace MISA.NDL.CukCuk.Core.Services
         public virtual string GetNewCode()
         {
             var result = iBaseRepository.GetNewCode();
-            var lenght = result.Length;
-            string res = result.Substring(0,3);
+            var lenghtOfCode = result.Length;
+            string newCode = result.Substring(0,3);
             int i = 3;
-            while (result[i] == '0' && i < lenght)
+            while (result[i] == '0' && i < lenghtOfCode)
             {
-                res = res + '0';
+                newCode = newCode + '0';
                 i++;
             }
-            int rest = lenght - i;
-            string restConvert = result.Substring(lenght - rest, rest);
+            int rest = lenghtOfCode - i;
+            string restConvert = result.Substring(lenghtOfCode - rest, rest);
             int Convert = int.Parse(restConvert);
             Convert += 1;
-            res = res + Convert.ToString();
-            return res;
+            newCode = newCode + Convert.ToString();
+            return newCode;
         }
 
         /// <summary>
@@ -109,7 +109,7 @@ namespace MISA.NDL.CukCuk.Core.Services
                 {   
                     if (property.GetValue(entity).ToString() == "")
                     {
-                        var errmsg = (nonEmpty[0] as NonEmpty).ErrMsg;
+                        var errmsg = (nonEmpty[0] as NonEmpty).ErrMsg;  
                         throw new ValidateException(errmsg, entity.GetType().GetProperty(property.Name).Name);
                     }
                 }
@@ -118,7 +118,7 @@ namespace MISA.NDL.CukCuk.Core.Services
                     var propertyValue = property.GetValue(entity);
                     var format = (isValidFormat[0] as Format).FormatValue;
                     var errmsg = (isValidFormat[0] as Format).ErrMsg;
-                    if (propertyValue.ToString() != "" && propertyValue != null && !Regex.IsMatch(propertyValue.ToString(), format) )
+                    if (propertyValue != null && propertyValue.ToString() != "" && !Regex.IsMatch(propertyValue.ToString(), format) )
                     {
                         throw new ValidateException(errmsg, property.Name);
                     }

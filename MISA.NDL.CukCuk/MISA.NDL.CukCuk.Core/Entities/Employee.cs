@@ -164,6 +164,32 @@ namespace MISA.NDL.CukCuk.Core.Entities
         /// created by ndluc(25/02/2021)
         public int TotalRecord { get; set; }
 
+
+        /// <summary>
+        /// Ngày cấp chứng minh thư nhân dâng
+        /// </summary>
+        /// created by ndluc(25/02/2021)
+        public DateTime? DateRange { get; set; }
+
+
+        /// <summary>
+        /// chi nhánh ngân hàng
+        /// </summary>
+        /// created by ndluc(25/02/2021)
+        public string BranchBank { get; set; }
+
+        /// <summary>
+        /// Điện thoại cố định
+        /// </summary>
+        /// created by ndluc(25/02/2021)
+        public string LandlinePhone { get; set; }
+
+        /// <summary>
+        /// Nơi cấp cmnd
+        /// </summary>
+        /// created by ndluc(25/02/2021)
+        public string IssuedBy { get; set; }
+
         /// <summary>
         /// Ghi chú
         /// </summary>
@@ -180,3 +206,4 @@ namespace MISA.NDL.CukCuk.Core.Entities
 
     }
 }
+        
