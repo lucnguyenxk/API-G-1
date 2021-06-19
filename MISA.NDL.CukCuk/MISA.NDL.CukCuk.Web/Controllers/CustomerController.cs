@@ -16,6 +16,10 @@ using System.Threading.Tasks;
 
 namespace MISA.NDL.CukCuk.Web.Controllers
 {
+    /// <summary>
+    /// controller khách hàng
+    /// created ndluc (21/05/2021)
+    /// </summary>
    
     public class CustomerController : BaseController<Customer>
     {

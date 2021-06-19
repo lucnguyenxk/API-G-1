@@ -146,8 +146,6 @@ namespace MISA.NDL.CukCuk.Core.Services
         {
             
         }
-
-       
         #endregion
 
     }
