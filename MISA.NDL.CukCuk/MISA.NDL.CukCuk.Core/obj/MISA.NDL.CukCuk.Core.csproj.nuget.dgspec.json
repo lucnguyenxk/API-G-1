@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {}
+    "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {
+    "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
         "projectName": "MISA.NDL.CukCuk.Core",
-        "projectPath": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
-        "packagesPath": "C:\\Users\\manhd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manhd\\OneDrive\\Máy tính\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\obj\\",
+        "projectPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\MISA.NDL.CukCuk.Core.csproj",
+        "packagesPath": "C:\\Users\\ndluc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ndluc\\Desktop\\API-G-1\\MISA.NDL.CukCuk\\MISA.NDL.CukCuk.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ndluc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

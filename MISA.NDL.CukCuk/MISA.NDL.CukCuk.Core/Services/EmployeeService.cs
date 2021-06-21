@@ -31,7 +31,7 @@ namespace MISA.NDL.CukCuk.Core.Services
         #endregion
 
 
-        #region Method
+        #region MethodO
         /// <summary>
         /// Service xuất khẩu file excel
         /// </summary>
@@ -40,6 +40,7 @@ namespace MISA.NDL.CukCuk.Core.Services
         /// created by ndluc(12/06/2021)
         public MemoryStream Export(CancellationToken cancellationToken)
         {
+           
             var listEmployees = iEmployeeRepository.GetAll().ToList();
             var properties = typeof(Employee).GetProperties();
             var memberInfors = new List<MemberInfo>();
