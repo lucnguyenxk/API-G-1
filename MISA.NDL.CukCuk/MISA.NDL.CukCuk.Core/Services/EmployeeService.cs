@@ -79,8 +79,17 @@ namespace MISA.NDL.CukCuk.Core.Services
 
                 // load dữ liệu ra file
                 workSheet.Cells["A3"].LoadFromCollection(listEmployees, true, OfficeOpenXml.Table.TableStyles.None, BindingFlags.Public, memberInfors.ToArray());
-                
+
                 // format các cột trong bảng excel
+                var lengtOfListEmployee = listEmployees.Count();
+                workSheet.Cells[3, 5, lengtOfListEmployee +3, 5].Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Center;
+                var i = 4;
+                foreach(var employee in listEmployees)
+                {
+                    workSheet.Cells[i, 5, i, 5].Value = employee.DateOfBirth?.ToString("dd/MM/yyyy");
+                    i++;
+                }
+                //workSheet.Cells[4, 5, 4, 5].Value = listEmployees[0].DateOfBirth?.ToString("dd/MM/yyyy");
                 workSheet.Cells[workSheet.Dimension.Address].AutoFitColumns();
                 workSheet.Cells[workSheet.Dimension.Address].Style.Border.Top.Style = ExcelBorderStyle.Thin;
                 workSheet.Cells[workSheet.Dimension.Address].Style.Border.Right.Style = ExcelBorderStyle.Thin;
