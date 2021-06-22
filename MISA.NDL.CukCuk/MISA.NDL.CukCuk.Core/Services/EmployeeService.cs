@@ -89,7 +89,8 @@ namespace MISA.NDL.CukCuk.Core.Services
                     workSheet.Cells[i, 5, i, 5].Value = employee.DateOfBirth?.ToString("dd/MM/yyyy");
                     i++;
                 }
-                //workSheet.Cells[4, 5, 4, 5].Value = listEmployees[0].DateOfBirth?.ToString("dd/MM/yyyy");
+
+                // format các cột trong bảng 
                 workSheet.Cells[workSheet.Dimension.Address].AutoFitColumns();
                 workSheet.Cells[workSheet.Dimension.Address].Style.Border.Top.Style = ExcelBorderStyle.Thin;
                 workSheet.Cells[workSheet.Dimension.Address].Style.Border.Right.Style = ExcelBorderStyle.Thin;
